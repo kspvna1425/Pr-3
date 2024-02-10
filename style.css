@@ -1,0 +1,255 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation bar and logo design */
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+#logo{
+    margin: 1px 6px;
+    padding: 1px 7px;
+}
+.navbar #logo img{
+    width: 60px;
+    margin: 2px 6px;
+}
+.navbar ul li{
+    list-style: none;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 14px 14x;
+    padding: 13px 15px;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    cursor: pointer;
+}
+
+/* form-control and input style */
+#form-control{
+    padding: 4px 5px;
+    margin: 5px 7px;
+}
+#form-control input{
+    padding: 5px 9px;
+    margin: 5px 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+#form-control .btn-form{
+    padding: 5px 6px;
+    margin: 5px 4px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    transition: all ease-in-out;
+    cursor: pointer;
+
+}
+#form-control .btn-form:hover{
+    background-color: rgb(226, 145, 145);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+#form-control .form{
+    padding: 5px 8px;
+    margin: 4px 7px;
+}
+
+/* container-home in style */
+.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.Home h1{
+    font-size: 2rem;
+    margin: 3px 6px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Home p{
+    font-size: 1.2rem;
+    margin: 1px 6px;
+    padding: 1px 7px;
+}
+.Home .btn-first{
+    padding: 6px 9px;
+    margin: 5px 7px;
+    background-color: white;
+    border: 1px solid black;
+    color: red;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in-out;
+}
+.Home .btn-first:hover{
+    background-color: rgb(192, 67, 67);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+/* /* container and artical style */
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 8px 4px;
+    margin: 2px 5px;
+    font-size: 2.4rem;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 4px 5px ;
+    padding: 3px 4px;
+} 
+.artical .para{
+    font-size: 1.1rem;
+    margin: 2px 4px;
+    padding: 2px;
+}
+.container{
+    display: block;
+    width: 900px;
+    margin: auto;
+
+}
+.artical{
+    width: auto;
+    text-align: center;
+    padding: 3px 12px;
+    margin: 2px 5px;
+}
+.container-artical{
+    display: flex;
+    margin: 8px 5px;
+}
+.logo-picture img{
+    margin: 4px 3px;
+    display: block;
+    width: 350px;
+}
+/* container-box style in css */
+.services-container{
+    display: block;
+    width: 950px;
+    margin: auto;
+}
+.p-para{
+    font-size: 17px;
+    margin: 2px 5px;
+    text-align: center;
+    padding: 5px 9px;
+}
+.box{
+    border: 2px solid black;
+    margin: 9px 10px ;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+/* box style */
+.h-pramery{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 4px 7px;
+    padding: 6px 9px;
+}
+.h-secondery{
+    text-align: center;
+    font-size: 1.3rem; 
+    margin: 2px 5px;
+    padding: 2px 8px;
+}
+.logo-box img{
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+
+}
+.p-para{
+    text-align: center;
+    margin: 2px 7px;
+    padding: 3px 8px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+/* footer */
+.center{
+    background-color: rgb(247, 65, 65);
+    text-align: center;
+    padding: 15px 5px;
+    margin: 4px 5px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* contact-form */
+.h-contact{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.2rem;
+    margin: 4px 12px;
+}
+.container-contact{
+    display: flex;
+    justify-content: center;
+}
+.contact-input{
+    margin: 12px 11px;
+    padding: 11px 14px;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.contact-input input{
+    margin: 5px 11px;
+    padding: 8px 200px;
+}
+.contact-input textarea{
+    margin: 5px 11px;
+    padding: 8px 200px;
+}
+.btn-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn-contact input{
+    color: black;
+    margin: 4px 3px;
+    padding: 4px 8px;
+    background-color: white;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+
+}

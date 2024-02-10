@@ -1,0 +1,51 @@
+#navigation{
+    position: relative;
+}
+
+#navigation::before{
+    content: " ";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.30;
+}
+.navbar ul li a{
+    color: white;
+}
+
+@media screen and (max-width: 1000px){
+    #navigation{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar ul li a{
+        margin: 5px 7x;
+        padding: 6px 8px;
+        font-size: 1rem;
+    }
+    .contact-input input{
+        margin: 5px 16px;
+        padding: 8px 16px;
+    }
+    .contact-input textarea{
+        margin: 5px 11px;
+        padding: 8px 20px;
+    }
+    .contact-input{
+        margin: 6px 10px;
+        padding: 6px 10px;
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    .h-contact{
+        font-size: 1.5rem;
+    }
+}
